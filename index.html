@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Jogos</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="form-label h1">Melhores Jogos de 2023</h1>
+        <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="d-block w-100" src="./imagens/imagem-1.jpg" />
+                    <div class="carousel-caption">
+                        <h2>The Last of Us</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="/imagens/imagem-2.jpg" />
+                    <div class="carousel-caption">
+                        <h2>God of War</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="./imagens/imagem-3.jpg" />
+                    <div class="carousel-caption">
+                        <h2>Horizon Zero Dawn</h2>
+                    </div>
+                </div>
+            </div>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+    </div>
+    <div class="container container-flex">
+        <h2  class="form-label h2">Jogos em Destaque</h2>
+        <div class="row">
+            <div class="col-4">
+                <div class="card text-bg-dark">
+                    <div class="card-header">
+                        Mad Max
+                    </div>
+                    <img src="./imagens/img-1.jpg" />
+                    <div class="card-body">
+                        <h4 class="card-title">Um dos melhores jogos em mundo aberto</h4>
+                        <p class="card-text">
+                            Torne-se Mad Max, um guerreiro solitário em um mundo selvagem pós-apocalíptico onde carros são a chave para a sobrevivência. Neste jogo de mundo aberto em terceira pessoa repleto de ação, você precisa lutar para sobreviver na Wasteland usando técnicas de combate a pé, ou no volante, contra gangues de bandidos ferozes.
+                        </p>
+                        <a href="#" class="btn btn-primary">Botão link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card text-bg-dark">
+                    <div class="card-header">
+                        Resident Evil 4
+                    </div>
+                    <img src="./imagens/img-2.jpeg" />
+                    <div class="card-body">
+                        <h4 class="card-title">Outro jogo muito bom em terceira pessoa</h4>
+                        <p class="card-text">
+                            Resident Evil 4, conhecido no Japão como Biohazard 4, é um jogo eletrônico de survival horror e tiro em terceira pessoa desenvolvido e publicado pela Capcom, lançado originalmente para o GameCube em 2005. É o sexto jogo principal da franquia Resident Evil Leon é enviado para resgatar a filha sequestrada do presidente perdida.
+                        </p>
+                        <a href="#" class="btn btn-primary">Botão link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card text-bg-dark">
+                    <div class="card-header">
+                        Forza Horizon 5
+                    </div>
+                    <img src="./imagens/img-3.jpeg" />
+                    <div class="card-body">
+                        <h4 class="card-title">Um jogo de carro de vai te surpreender</h4>
+                        <p class="card-text">
+                            Forza Horizon 5 é um jogo eletrônico de corrida desenvolvido pela Playground Games e publicado pela Xbox Game Studios. É o quinto jogo da série Forza Horizon e o décimo segundo título principal da franquia Forza. o jogo se passa em uma representação ficcional do México.Sua maior aventura Horizon te espera.
+                        </p>
+                        <a href="#" class="btn btn-primary">Botão link</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
